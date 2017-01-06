@@ -1,0 +1,728 @@
+Simulator.run(): Trial 0
+Environment.reset(): Trial set up with start = (2, 5), destination = (6, 4), deadline = 25
+RoutePlanner.route_to(): destination = (6, 4)
+illegal action:  left for state {'light': 'red', 'oncoming': None, 'right': None, 'left': None}
+illegal action:  forward for state {'light': 'red', 'oncoming': None, 'right': None, 'left': None}
+illegal action:  forward for state {'light': 'red', 'oncoming': None, 'right': None, 'left': None}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 1
+Environment.reset(): Trial set up with start = (1, 2), destination = (5, 4), deadline = 30
+RoutePlanner.route_to(): destination = (5, 4)
+illegal action:  forward for state {'light': 'red', 'oncoming': None, 'right': None, 'left': None}
+illegal action:  left for state {'light': 'red', 'oncoming': None, 'right': None, 'left': None}
+illegal action:  left for state {'light': 'red', 'oncoming': None, 'right': None, 'left': None}
+illegal action:  left for state {'light': 'red', 'oncoming': None, 'right': None, 'left': None}
+illegal action:  forward for state {'light': 'red', 'oncoming': None, 'right': None, 'left': None}
+illegal action:  left for state {'light': 'red', 'oncoming': None, 'right': None, 'left': None}
+illegal action:  left for state {'light': 'red', 'oncoming': None, 'right': None, 'left': None}
+illegal action:  forward for state {'light': 'red', 'oncoming': None, 'right': None, 'left': None}
+illegal action:  forward for state {'light': 'red', 'oncoming': None, 'right': None, 'left': None}
+illegal action:  forward for state {'light': 'red', 'oncoming': None, 'right': None, 'left': None}
+illegal action:  left for state {'light': 'red', 'oncoming': None, 'right': None, 'left': None}
+illegal action:  left for state {'light': 'red', 'oncoming': None, 'right': None, 'left': None}
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  30  reward:  7.0
+destination reached:  1  illegal moves  15 cumulative steps:  30  average number of steps:  30.0  average rewards:  7.0
+
+Simulator.run(): Trial 2
+Environment.reset(): Trial set up with start = (8, 6), destination = (2, 5), deadline = 35
+RoutePlanner.route_to(): destination = (2, 5)
+illegal action:  forward for state {'light': 'red', 'oncoming': None, 'right': None, 'left': None}
+illegal action:  forward for state {'light': 'red', 'oncoming': None, 'right': None, 'left': None}
+illegal action:  left for state {'light': 'red', 'oncoming': None, 'right': None, 'left': None}
+illegal action:  left for state {'light': 'red', 'oncoming': None, 'right': None, 'left': None}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 3
+Environment.reset(): Trial set up with start = (5, 1), destination = (1, 4), deadline = 35
+RoutePlanner.route_to(): destination = (1, 4)
+illegal action:  left for state {'light': 'red', 'oncoming': None, 'right': None, 'left': None}
+illegal action:  forward for state {'light': 'red', 'oncoming': None, 'right': None, 'left': None}
+illegal action:  forward for state {'light': 'red', 'oncoming': None, 'right': None, 'left': None}
+illegal action:  left for state {'light': 'red', 'oncoming': None, 'right': None, 'left': None}
+illegal action:  forward for state {'light': 'red', 'oncoming': None, 'right': None, 'left': None}
+illegal action:  forward for state {'light': 'red', 'oncoming': None, 'right': None, 'left': None}
+illegal action:  forward for state {'light': 'red', 'oncoming': None, 'right': None, 'left': None}
+illegal action:  forward for state {'light': 'red', 'oncoming': None, 'right': None, 'left': None}
+Environment.reset(): Primary agent could not reach destination within deadline!
+Simulator.run(): Trial 4
+Environment.reset(): Trial set up with start = (7, 6), destination = (1, 2), deadline = 50
+RoutePlanner.route_to(): destination = (1, 2)
+illegal action:  left for state {'light': 'red', 'oncoming': None, 'right': None, 'left': None}
+illegal action:  left for state {'light': 'red', 'oncoming': None, 'right': None, 'left': None}
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  41  reward:  48.5
+destination reached:  2  illegal moves  29 cumulative steps:  71  average number of steps:  35.5  average rewards:  27.75
+
+Simulator.run(): Trial 5
+Environment.reset(): Trial set up with start = (8, 4), destination = (4, 1), deadline = 35
+RoutePlanner.route_to(): destination = (4, 1)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  16  reward:  21
+destination reached:  3  illegal moves  29 cumulative steps:  87  average number of steps:  29.0  average rewards:  25.5
+
+Simulator.run(): Trial 6
+Environment.reset(): Trial set up with start = (6, 3), destination = (1, 5), deadline = 35
+RoutePlanner.route_to(): destination = (1, 5)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  11  reward:  16
+destination reached:  4  illegal moves  29 cumulative steps:  98  average number of steps:  24.5  average rewards:  23.125
+
+Simulator.run(): Trial 7
+Environment.reset(): Trial set up with start = (5, 6), destination = (5, 1), deadline = 25
+RoutePlanner.route_to(): destination = (5, 1)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  9  reward:  12
+destination reached:  5  illegal moves  29 cumulative steps:  107  average number of steps:  21.4  average rewards:  20.9
+
+Simulator.run(): Trial 8
+Environment.reset(): Trial set up with start = (1, 2), destination = (4, 4), deadline = 25
+RoutePlanner.route_to(): destination = (4, 4)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  9  reward:  12
+destination reached:  6  illegal moves  29 cumulative steps:  116  average number of steps:  19.3333333333  average rewards:  19.4166666667
+
+Simulator.run(): Trial 9
+Environment.reset(): Trial set up with start = (2, 1), destination = (1, 4), deadline = 20
+RoutePlanner.route_to(): destination = (1, 4)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  8  reward:  12.5
+destination reached:  7  illegal moves  29 cumulative steps:  124  average number of steps:  17.7142857143  average rewards:  18.4285714286
+
+Simulator.run(): Trial 10
+Environment.reset(): Trial set up with start = (6, 4), destination = (1, 4), deadline = 25
+RoutePlanner.route_to(): destination = (1, 4)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  13  reward:  16
+destination reached:  8  illegal moves  29 cumulative steps:  137  average number of steps:  17.125  average rewards:  18.125
+
+Simulator.run(): Trial 11
+Environment.reset(): Trial set up with start = (4, 2), destination = (2, 6), deadline = 30
+RoutePlanner.route_to(): destination = (2, 6)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  16  reward:  20
+destination reached:  9  illegal moves  29 cumulative steps:  153  average number of steps:  17.0  average rewards:  18.3333333333
+
+Simulator.run(): Trial 12
+Environment.reset(): Trial set up with start = (3, 2), destination = (5, 4), deadline = 20
+RoutePlanner.route_to(): destination = (5, 4)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  9  reward:  13
+destination reached:  10  illegal moves  29 cumulative steps:  162  average number of steps:  16.2  average rewards:  17.8
+
+Simulator.run(): Trial 13
+Environment.reset(): Trial set up with start = (4, 6), destination = (5, 2), deadline = 25
+RoutePlanner.route_to(): destination = (5, 2)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  17  reward:  20
+destination reached:  11  illegal moves  29 cumulative steps:  179  average number of steps:  16.2727272727  average rewards:  18.0
+
+Simulator.run(): Trial 14
+Environment.reset(): Trial set up with start = (2, 3), destination = (8, 2), deadline = 35
+RoutePlanner.route_to(): destination = (8, 2)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  17  reward:  22
+destination reached:  12  illegal moves  29 cumulative steps:  196  average number of steps:  16.3333333333  average rewards:  18.3333333333
+
+Simulator.run(): Trial 15
+Environment.reset(): Trial set up with start = (2, 4), destination = (7, 2), deadline = 35
+RoutePlanner.route_to(): destination = (7, 2)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  13  reward:  18
+destination reached:  13  illegal moves  29 cumulative steps:  209  average number of steps:  16.0769230769  average rewards:  18.3076923077
+
+Simulator.run(): Trial 16
+Environment.reset(): Trial set up with start = (7, 2), destination = (4, 3), deadline = 20
+RoutePlanner.route_to(): destination = (4, 3)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  7  reward:  9
+destination reached:  14  illegal moves  29 cumulative steps:  216  average number of steps:  15.4285714286  average rewards:  17.6428571429
+
+Simulator.run(): Trial 17
+Environment.reset(): Trial set up with start = (2, 6), destination = (6, 5), deadline = 25
+RoutePlanner.route_to(): destination = (6, 5)
+illegal action:  forward for state {'light': 'red', 'oncoming': 'right', 'right': None, 'left': None}
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  6  reward:  7
+destination reached:  15  illegal moves  30 cumulative steps:  222  average number of steps:  14.8  average rewards:  16.9333333333
+
+Simulator.run(): Trial 18
+Environment.reset(): Trial set up with start = (8, 2), destination = (3, 1), deadline = 30
+RoutePlanner.route_to(): destination = (3, 1)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  15  reward:  21
+destination reached:  16  illegal moves  30 cumulative steps:  237  average number of steps:  14.8125  average rewards:  17.1875
+
+Simulator.run(): Trial 19
+Environment.reset(): Trial set up with start = (1, 1), destination = (6, 2), deadline = 30
+RoutePlanner.route_to(): destination = (6, 2)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  13  reward:  17
+destination reached:  17  illegal moves  30 cumulative steps:  250  average number of steps:  14.7058823529  average rewards:  17.1764705882
+
+Simulator.run(): Trial 20
+Environment.reset(): Trial set up with start = (5, 1), destination = (4, 4), deadline = 20
+RoutePlanner.route_to(): destination = (4, 4)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  9  reward:  11
+destination reached:  18  illegal moves  30 cumulative steps:  259  average number of steps:  14.3888888889  average rewards:  16.8333333333
+
+Simulator.run(): Trial 21
+Environment.reset(): Trial set up with start = (7, 3), destination = (2, 6), deadline = 40
+RoutePlanner.route_to(): destination = (2, 6)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  22  reward:  28
+destination reached:  19  illegal moves  30 cumulative steps:  281  average number of steps:  14.7894736842  average rewards:  17.4210526316
+
+Simulator.run(): Trial 22
+Environment.reset(): Trial set up with start = (2, 1), destination = (7, 5), deadline = 45
+RoutePlanner.route_to(): destination = (7, 5)
+illegal action:  forward for state {'light': 'red', 'oncoming': 'left', 'right': None, 'left': None}
+illegal action:  right for state {'light': 'red', 'oncoming': 'left', 'right': None, 'left': None}
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  21  reward:  24.5
+destination reached:  20  illegal moves  32 cumulative steps:  302  average number of steps:  15.1  average rewards:  17.775
+
+Simulator.run(): Trial 23
+Environment.reset(): Trial set up with start = (2, 6), destination = (3, 3), deadline = 20
+RoutePlanner.route_to(): destination = (3, 3)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  9  reward:  11
+destination reached:  21  illegal moves  32 cumulative steps:  311  average number of steps:  14.8095238095  average rewards:  17.4523809524
+
+Simulator.run(): Trial 24
+Environment.reset(): Trial set up with start = (5, 3), destination = (1, 4), deadline = 25
+RoutePlanner.route_to(): destination = (1, 4)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  17  reward:  20
+destination reached:  22  illegal moves  32 cumulative steps:  328  average number of steps:  14.9090909091  average rewards:  17.5681818182
+
+Simulator.run(): Trial 25
+Environment.reset(): Trial set up with start = (8, 5), destination = (8, 1), deadline = 20
+RoutePlanner.route_to(): destination = (8, 1)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  11  reward:  13
+destination reached:  23  illegal moves  32 cumulative steps:  339  average number of steps:  14.7391304348  average rewards:  17.3695652174
+
+Simulator.run(): Trial 26
+Environment.reset(): Trial set up with start = (5, 4), destination = (1, 4), deadline = 20
+RoutePlanner.route_to(): destination = (1, 4)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  9  reward:  11
+destination reached:  24  illegal moves  32 cumulative steps:  348  average number of steps:  14.5  average rewards:  17.1041666667
+
+Simulator.run(): Trial 27
+Environment.reset(): Trial set up with start = (4, 1), destination = (2, 3), deadline = 20
+RoutePlanner.route_to(): destination = (2, 3)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  4  reward:  6
+destination reached:  25  illegal moves  32 cumulative steps:  352  average number of steps:  14.08  average rewards:  16.66
+
+Simulator.run(): Trial 28
+Environment.reset(): Trial set up with start = (1, 2), destination = (3, 4), deadline = 20
+RoutePlanner.route_to(): destination = (3, 4)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  9  reward:  11
+destination reached:  26  illegal moves  32 cumulative steps:  361  average number of steps:  13.8846153846  average rewards:  16.4423076923
+
+Simulator.run(): Trial 29
+Environment.reset(): Trial set up with start = (2, 4), destination = (5, 5), deadline = 20
+RoutePlanner.route_to(): destination = (5, 5)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  7  reward:  9
+destination reached:  27  illegal moves  32 cumulative steps:  368  average number of steps:  13.6296296296  average rewards:  16.1666666667
+
+Simulator.run(): Trial 30
+Environment.reset(): Trial set up with start = (3, 5), destination = (6, 1), deadline = 35
+RoutePlanner.route_to(): destination = (6, 1)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  19  reward:  24
+destination reached:  28  illegal moves  32 cumulative steps:  387  average number of steps:  13.8214285714  average rewards:  16.4464285714
+
+Simulator.run(): Trial 31
+Environment.reset(): Trial set up with start = (4, 4), destination = (8, 1), deadline = 35
+RoutePlanner.route_to(): destination = (8, 1)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  21  reward:  26
+destination reached:  29  illegal moves  32 cumulative steps:  408  average number of steps:  14.0689655172  average rewards:  16.775862069
+
+Simulator.run(): Trial 32
+Environment.reset(): Trial set up with start = (7, 5), destination = (4, 2), deadline = 30
+RoutePlanner.route_to(): destination = (4, 2)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  17  reward:  21
+destination reached:  30  illegal moves  32 cumulative steps:  425  average number of steps:  14.1666666667  average rewards:  16.9166666667
+
+Simulator.run(): Trial 33
+Environment.reset(): Trial set up with start = (6, 4), destination = (3, 3), deadline = 20
+RoutePlanner.route_to(): destination = (3, 3)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  14  reward:  16
+destination reached:  31  illegal moves  32 cumulative steps:  439  average number of steps:  14.1612903226  average rewards:  16.8870967742
+
+Simulator.run(): Trial 34
+Environment.reset(): Trial set up with start = (5, 2), destination = (2, 1), deadline = 20
+RoutePlanner.route_to(): destination = (2, 1)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  17  reward:  17.5
+destination reached:  32  illegal moves  32 cumulative steps:  456  average number of steps:  14.25  average rewards:  16.90625
+
+Simulator.run(): Trial 35
+Environment.reset(): Trial set up with start = (1, 3), destination = (5, 1), deadline = 30
+RoutePlanner.route_to(): destination = (5, 1)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  16  reward:  20
+destination reached:  33  illegal moves  32 cumulative steps:  472  average number of steps:  14.303030303  average rewards:  17.0
+
+Simulator.run(): Trial 36
+Environment.reset(): Trial set up with start = (7, 4), destination = (2, 6), deadline = 35
+RoutePlanner.route_to(): destination = (2, 6)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  18  reward:  23
+destination reached:  34  illegal moves  32 cumulative steps:  490  average number of steps:  14.4117647059  average rewards:  17.1764705882
+
+Simulator.run(): Trial 37
+Environment.reset(): Trial set up with start = (3, 1), destination = (8, 2), deadline = 30
+RoutePlanner.route_to(): destination = (8, 2)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  14  reward:  18
+destination reached:  35  illegal moves  32 cumulative steps:  504  average number of steps:  14.4  average rewards:  17.2
+
+Simulator.run(): Trial 38
+Environment.reset(): Trial set up with start = (4, 4), destination = (2, 2), deadline = 20
+RoutePlanner.route_to(): destination = (2, 2)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  11  reward:  13
+destination reached:  36  illegal moves  32 cumulative steps:  515  average number of steps:  14.3055555556  average rewards:  17.0833333333
+
+Simulator.run(): Trial 39
+Environment.reset(): Trial set up with start = (7, 6), destination = (8, 3), deadline = 20
+RoutePlanner.route_to(): destination = (8, 3)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  12  reward:  14
+destination reached:  37  illegal moves  32 cumulative steps:  527  average number of steps:  14.2432432432  average rewards:  17.0
+
+Simulator.run(): Trial 40
+Environment.reset(): Trial set up with start = (7, 1), destination = (3, 3), deadline = 30
+RoutePlanner.route_to(): destination = (3, 3)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  14  reward:  18
+destination reached:  38  illegal moves  32 cumulative steps:  541  average number of steps:  14.2368421053  average rewards:  17.0263157895
+
+Simulator.run(): Trial 41
+Environment.reset(): Trial set up with start = (1, 1), destination = (7, 2), deadline = 35
+RoutePlanner.route_to(): destination = (7, 2)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  13  reward:  18
+destination reached:  39  illegal moves  32 cumulative steps:  554  average number of steps:  14.2051282051  average rewards:  17.0512820513
+
+Simulator.run(): Trial 42
+Environment.reset(): Trial set up with start = (7, 6), destination = (1, 5), deadline = 35
+RoutePlanner.route_to(): destination = (1, 5)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  11  reward:  16
+destination reached:  40  illegal moves  32 cumulative steps:  565  average number of steps:  14.125  average rewards:  17.025
+
+Simulator.run(): Trial 43
+Environment.reset(): Trial set up with start = (3, 1), destination = (6, 5), deadline = 35
+RoutePlanner.route_to(): destination = (6, 5)
+illegal action:  right for state {'light': 'red', 'oncoming': 'left', 'right': None, 'left': 'left'}
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  13  reward:  18
+destination reached:  41  illegal moves  33 cumulative steps:  578  average number of steps:  14.0975609756  average rewards:  17.0487804878
+
+Simulator.run(): Trial 44
+Environment.reset(): Trial set up with start = (1, 5), destination = (3, 2), deadline = 25
+RoutePlanner.route_to(): destination = (3, 2)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  13  reward:  16
+destination reached:  42  illegal moves  33 cumulative steps:  591  average number of steps:  14.0714285714  average rewards:  17.0238095238
+
+Simulator.run(): Trial 45
+Environment.reset(): Trial set up with start = (1, 6), destination = (8, 1), deadline = 60
+RoutePlanner.route_to(): destination = (8, 1)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  21  reward:  31
+destination reached:  43  illegal moves  33 cumulative steps:  612  average number of steps:  14.2325581395  average rewards:  17.3488372093
+
+Simulator.run(): Trial 46
+Environment.reset(): Trial set up with start = (7, 6), destination = (2, 4), deadline = 35
+RoutePlanner.route_to(): destination = (2, 4)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  11  reward:  16
+destination reached:  44  illegal moves  33 cumulative steps:  623  average number of steps:  14.1590909091  average rewards:  17.3181818182
+
+Simulator.run(): Trial 47
+Environment.reset(): Trial set up with start = (5, 1), destination = (4, 5), deadline = 25
+RoutePlanner.route_to(): destination = (4, 5)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  15  reward:  18.5
+destination reached:  45  illegal moves  33 cumulative steps:  638  average number of steps:  14.1777777778  average rewards:  17.3444444444
+
+Simulator.run(): Trial 48
+Environment.reset(): Trial set up with start = (6, 6), destination = (2, 3), deadline = 35
+RoutePlanner.route_to(): destination = (2, 3)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  12  reward:  17
+destination reached:  46  illegal moves  33 cumulative steps:  650  average number of steps:  14.1304347826  average rewards:  17.3369565217
+
+Simulator.run(): Trial 49
+Environment.reset(): Trial set up with start = (4, 3), destination = (2, 5), deadline = 20
+RoutePlanner.route_to(): destination = (2, 5)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  9  reward:  11
+destination reached:  47  illegal moves  33 cumulative steps:  659  average number of steps:  14.0212765957  average rewards:  17.2021276596
+
+Simulator.run(): Trial 50
+Environment.reset(): Trial set up with start = (8, 6), destination = (3, 1), deadline = 50
+RoutePlanner.route_to(): destination = (3, 1)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  28  reward:  36.5
+destination reached:  48  illegal moves  33 cumulative steps:  687  average number of steps:  14.3125  average rewards:  17.6041666667
+
+Simulator.run(): Trial 51
+Environment.reset(): Trial set up with start = (6, 3), destination = (2, 2), deadline = 25
+RoutePlanner.route_to(): destination = (2, 2)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  19  reward:  24.5
+destination reached:  49  illegal moves  33 cumulative steps:  706  average number of steps:  14.4081632653  average rewards:  17.7448979592
+
+Simulator.run(): Trial 52
+Environment.reset(): Trial set up with start = (5, 3), destination = (7, 6), deadline = 25
+RoutePlanner.route_to(): destination = (7, 6)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  13  reward:  18
+destination reached:  50  illegal moves  33 cumulative steps:  719  average number of steps:  14.38  average rewards:  17.75
+
+Simulator.run(): Trial 53
+Environment.reset(): Trial set up with start = (8, 2), destination = (3, 2), deadline = 25
+RoutePlanner.route_to(): destination = (3, 2)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  8  reward:  11
+destination reached:  51  illegal moves  33 cumulative steps:  727  average number of steps:  14.2549019608  average rewards:  17.6176470588
+
+Simulator.run(): Trial 54
+Environment.reset(): Trial set up with start = (2, 6), destination = (8, 4), deadline = 40
+RoutePlanner.route_to(): destination = (8, 4)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  14  reward:  20
+destination reached:  52  illegal moves  33 cumulative steps:  741  average number of steps:  14.25  average rewards:  17.6634615385
+
+Simulator.run(): Trial 55
+Environment.reset(): Trial set up with start = (7, 5), destination = (3, 2), deadline = 35
+RoutePlanner.route_to(): destination = (3, 2)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  11  reward:  18
+destination reached:  53  illegal moves  33 cumulative steps:  752  average number of steps:  14.1886792453  average rewards:  17.6698113208
+
+Simulator.run(): Trial 56
+Environment.reset(): Trial set up with start = (8, 1), destination = (5, 6), deadline = 40
+RoutePlanner.route_to(): destination = (5, 6)
+illegal action:  right for state {'light': 'red', 'oncoming': 'left', 'right': None, 'left': None}
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  19  reward:  27.5
+destination reached:  54  illegal moves  34 cumulative steps:  771  average number of steps:  14.2777777778  average rewards:  17.8518518519
+
+Simulator.run(): Trial 57
+Environment.reset(): Trial set up with start = (1, 4), destination = (4, 6), deadline = 25
+RoutePlanner.route_to(): destination = (4, 6)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  15  reward:  18
+destination reached:  55  illegal moves  34 cumulative steps:  786  average number of steps:  14.2909090909  average rewards:  17.8545454545
+
+Simulator.run(): Trial 58
+Environment.reset(): Trial set up with start = (7, 2), destination = (4, 6), deadline = 35
+RoutePlanner.route_to(): destination = (4, 6)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  11  reward:  16
+destination reached:  56  illegal moves  34 cumulative steps:  797  average number of steps:  14.2321428571  average rewards:  17.8214285714
+
+Simulator.run(): Trial 59
+Environment.reset(): Trial set up with start = (4, 5), destination = (1, 4), deadline = 20
+RoutePlanner.route_to(): destination = (1, 4)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  12  reward:  14
+destination reached:  57  illegal moves  34 cumulative steps:  809  average number of steps:  14.1929824561  average rewards:  17.7543859649
+
+Simulator.run(): Trial 60
+Environment.reset(): Trial set up with start = (3, 1), destination = (8, 3), deadline = 35
+RoutePlanner.route_to(): destination = (8, 3)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  16  reward:  21.5
+destination reached:  58  illegal moves  34 cumulative steps:  825  average number of steps:  14.224137931  average rewards:  17.8189655172
+
+Simulator.run(): Trial 61
+Environment.reset(): Trial set up with start = (7, 6), destination = (4, 5), deadline = 20
+RoutePlanner.route_to(): destination = (4, 5)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  13  reward:  19
+destination reached:  59  illegal moves  34 cumulative steps:  838  average number of steps:  14.2033898305  average rewards:  17.8389830508
+
+Simulator.run(): Trial 62
+Environment.reset(): Trial set up with start = (1, 2), destination = (2, 6), deadline = 25
+RoutePlanner.route_to(): destination = (2, 6)
+illegal action:  right for state {'light': 'red', 'oncoming': 'left', 'right': None, 'left': None}
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  11  reward:  16
+destination reached:  60  illegal moves  35 cumulative steps:  849  average number of steps:  14.15  average rewards:  17.8083333333
+
+Simulator.run(): Trial 63
+Environment.reset(): Trial set up with start = (7, 2), destination = (4, 5), deadline = 30
+RoutePlanner.route_to(): destination = (4, 5)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  6  reward:  10
+destination reached:  61  illegal moves  35 cumulative steps:  855  average number of steps:  14.0163934426  average rewards:  17.6803278689
+
+Simulator.run(): Trial 64
+Environment.reset(): Trial set up with start = (6, 1), destination = (1, 4), deadline = 40
+RoutePlanner.route_to(): destination = (1, 4)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  21  reward:  27
+destination reached:  62  illegal moves  35 cumulative steps:  876  average number of steps:  14.1290322581  average rewards:  17.8306451613
+
+Simulator.run(): Trial 65
+Environment.reset(): Trial set up with start = (4, 6), destination = (1, 4), deadline = 25
+RoutePlanner.route_to(): destination = (1, 4)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  5  reward:  8
+destination reached:  63  illegal moves  35 cumulative steps:  881  average number of steps:  13.9841269841  average rewards:  17.6746031746
+
+Simulator.run(): Trial 66
+Environment.reset(): Trial set up with start = (1, 1), destination = (7, 4), deadline = 45
+RoutePlanner.route_to(): destination = (7, 4)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  11  reward:  18
+destination reached:  64  illegal moves  35 cumulative steps:  892  average number of steps:  13.9375  average rewards:  17.6796875
+
+Simulator.run(): Trial 67
+Environment.reset(): Trial set up with start = (7, 5), destination = (6, 1), deadline = 25
+RoutePlanner.route_to(): destination = (6, 1)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  7  reward:  10
+destination reached:  65  illegal moves  35 cumulative steps:  899  average number of steps:  13.8307692308  average rewards:  17.5615384615
+
+Simulator.run(): Trial 68
+Environment.reset(): Trial set up with start = (6, 1), destination = (6, 6), deadline = 25
+RoutePlanner.route_to(): destination = (6, 6)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  25  reward:  33.0
+destination reached:  66  illegal moves  35 cumulative steps:  924  average number of steps:  14.0  average rewards:  17.7954545455
+
+Simulator.run(): Trial 69
+Environment.reset(): Trial set up with start = (8, 4), destination = (4, 4), deadline = 20
+RoutePlanner.route_to(): destination = (4, 4)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  6  reward:  10
+destination reached:  67  illegal moves  35 cumulative steps:  930  average number of steps:  13.8805970149  average rewards:  17.6791044776
+
+Simulator.run(): Trial 70
+Environment.reset(): Trial set up with start = (8, 1), destination = (5, 4), deadline = 30
+RoutePlanner.route_to(): destination = (5, 4)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  11  reward:  13.5
+destination reached:  68  illegal moves  35 cumulative steps:  941  average number of steps:  13.8382352941  average rewards:  17.6176470588
+
+Simulator.run(): Trial 71
+Environment.reset(): Trial set up with start = (2, 4), destination = (7, 4), deadline = 25
+RoutePlanner.route_to(): destination = (7, 4)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  13  reward:  16
+destination reached:  69  illegal moves  35 cumulative steps:  954  average number of steps:  13.8260869565  average rewards:  17.5942028986
+
+Simulator.run(): Trial 72
+Environment.reset(): Trial set up with start = (8, 5), destination = (7, 1), deadline = 25
+RoutePlanner.route_to(): destination = (7, 1)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  8  reward:  11
+destination reached:  70  illegal moves  35 cumulative steps:  962  average number of steps:  13.7428571429  average rewards:  17.5
+
+Simulator.run(): Trial 73
+Environment.reset(): Trial set up with start = (1, 3), destination = (6, 1), deadline = 35
+RoutePlanner.route_to(): destination = (6, 1)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  12  reward:  17
+destination reached:  71  illegal moves  35 cumulative steps:  974  average number of steps:  13.7183098592  average rewards:  17.4929577465
+
+Simulator.run(): Trial 74
+Environment.reset(): Trial set up with start = (8, 5), destination = (6, 1), deadline = 30
+RoutePlanner.route_to(): destination = (6, 1)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  12  reward:  16
+destination reached:  72  illegal moves  35 cumulative steps:  986  average number of steps:  13.6944444444  average rewards:  17.4722222222
+
+Simulator.run(): Trial 75
+Environment.reset(): Trial set up with start = (4, 4), destination = (6, 1), deadline = 25
+RoutePlanner.route_to(): destination = (6, 1)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  13  reward:  16
+destination reached:  73  illegal moves  35 cumulative steps:  999  average number of steps:  13.6849315068  average rewards:  17.4520547945
+
+Simulator.run(): Trial 76
+Environment.reset(): Trial set up with start = (8, 2), destination = (6, 5), deadline = 25
+RoutePlanner.route_to(): destination = (6, 5)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  7  reward:  10
+destination reached:  74  illegal moves  35 cumulative steps:  1006  average number of steps:  13.5945945946  average rewards:  17.3513513514
+
+Simulator.run(): Trial 77
+Environment.reset(): Trial set up with start = (6, 6), destination = (3, 4), deadline = 25
+RoutePlanner.route_to(): destination = (3, 4)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  11  reward:  14
+destination reached:  75  illegal moves  35 cumulative steps:  1017  average number of steps:  13.56  average rewards:  17.3066666667
+
+Simulator.run(): Trial 78
+Environment.reset(): Trial set up with start = (8, 1), destination = (7, 6), deadline = 30
+RoutePlanner.route_to(): destination = (7, 6)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  12  reward:  16
+destination reached:  76  illegal moves  35 cumulative steps:  1029  average number of steps:  13.5394736842  average rewards:  17.2894736842
+
+Simulator.run(): Trial 79
+Environment.reset(): Trial set up with start = (8, 5), destination = (8, 1), deadline = 20
+RoutePlanner.route_to(): destination = (8, 1)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  6  reward:  8
+destination reached:  77  illegal moves  35 cumulative steps:  1035  average number of steps:  13.4415584416  average rewards:  17.1688311688
+
+Simulator.run(): Trial 80
+Environment.reset(): Trial set up with start = (5, 2), destination = (6, 5), deadline = 20
+RoutePlanner.route_to(): destination = (6, 5)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  13  reward:  17.5
+destination reached:  78  illegal moves  35 cumulative steps:  1048  average number of steps:  13.4358974359  average rewards:  17.1730769231
+
+Simulator.run(): Trial 81
+Environment.reset(): Trial set up with start = (3, 3), destination = (8, 6), deadline = 40
+RoutePlanner.route_to(): destination = (8, 6)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  21  reward:  29
+destination reached:  79  illegal moves  35 cumulative steps:  1069  average number of steps:  13.5316455696  average rewards:  17.3227848101
+
+Simulator.run(): Trial 82
+Environment.reset(): Trial set up with start = (5, 5), destination = (7, 2), deadline = 25
+RoutePlanner.route_to(): destination = (7, 2)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  6  reward:  9
+destination reached:  80  illegal moves  35 cumulative steps:  1075  average number of steps:  13.4375  average rewards:  17.21875
+
+Simulator.run(): Trial 83
+Environment.reset(): Trial set up with start = (5, 5), destination = (1, 6), deadline = 25
+RoutePlanner.route_to(): destination = (1, 6)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  13  reward:  16
+destination reached:  81  illegal moves  35 cumulative steps:  1088  average number of steps:  13.4320987654  average rewards:  17.2037037037
+
+Simulator.run(): Trial 84
+Environment.reset(): Trial set up with start = (7, 2), destination = (2, 4), deadline = 35
+RoutePlanner.route_to(): destination = (2, 4)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  17  reward:  22
+destination reached:  82  illegal moves  35 cumulative steps:  1105  average number of steps:  13.4756097561  average rewards:  17.262195122
+
+Simulator.run(): Trial 85
+Environment.reset(): Trial set up with start = (5, 4), destination = (6, 1), deadline = 20
+RoutePlanner.route_to(): destination = (6, 1)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  4  reward:  6
+destination reached:  83  illegal moves  35 cumulative steps:  1109  average number of steps:  13.3614457831  average rewards:  17.1265060241
+
+Simulator.run(): Trial 86
+Environment.reset(): Trial set up with start = (2, 6), destination = (4, 1), deadline = 35
+RoutePlanner.route_to(): destination = (4, 1)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  13  reward:  18
+destination reached:  84  illegal moves  35 cumulative steps:  1122  average number of steps:  13.3571428571  average rewards:  17.1369047619
+
+Simulator.run(): Trial 87
+Environment.reset(): Trial set up with start = (2, 3), destination = (5, 2), deadline = 20
+RoutePlanner.route_to(): destination = (5, 2)
+illegal action:  left for state {'light': 'red', 'oncoming': 'right', 'right': None, 'left': None}
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  5  reward:  5
+destination reached:  85  illegal moves  36 cumulative steps:  1127  average number of steps:  13.2588235294  average rewards:  16.9941176471
+
+Simulator.run(): Trial 88
+Environment.reset(): Trial set up with start = (4, 4), destination = (6, 6), deadline = 20
+RoutePlanner.route_to(): destination = (6, 6)
+illegal action:  right for state {'light': 'red', 'oncoming': 'left', 'right': None, 'left': None}
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  6  reward:  8.5
+destination reached:  86  illegal moves  37 cumulative steps:  1133  average number of steps:  13.1744186047  average rewards:  16.8953488372
+
+Simulator.run(): Trial 89
+Environment.reset(): Trial set up with start = (8, 6), destination = (5, 4), deadline = 25
+RoutePlanner.route_to(): destination = (5, 4)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  11  reward:  14
+destination reached:  87  illegal moves  37 cumulative steps:  1144  average number of steps:  13.1494252874  average rewards:  16.8620689655
+
+Simulator.run(): Trial 90
+Environment.reset(): Trial set up with start = (8, 4), destination = (2, 2), deadline = 40
+RoutePlanner.route_to(): destination = (2, 2)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  16  reward:  22
+destination reached:  88  illegal moves  37 cumulative steps:  1160  average number of steps:  13.1818181818  average rewards:  16.9204545455
+
+Simulator.run(): Trial 91
+Environment.reset(): Trial set up with start = (6, 5), destination = (3, 4), deadline = 20
+RoutePlanner.route_to(): destination = (3, 4)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  6  reward:  8
+destination reached:  89  illegal moves  37 cumulative steps:  1166  average number of steps:  13.1011235955  average rewards:  16.8202247191
+
+Simulator.run(): Trial 92
+Environment.reset(): Trial set up with start = (2, 5), destination = (7, 5), deadline = 25
+RoutePlanner.route_to(): destination = (7, 5)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  13  reward:  16
+destination reached:  90  illegal moves  37 cumulative steps:  1179  average number of steps:  13.1  average rewards:  16.8111111111
+
+Simulator.run(): Trial 93
+Environment.reset(): Trial set up with start = (5, 5), destination = (2, 6), deadline = 20
+RoutePlanner.route_to(): destination = (2, 6)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  11  reward:  13
+destination reached:  91  illegal moves  37 cumulative steps:  1190  average number of steps:  13.0769230769  average rewards:  16.7692307692
+
+Simulator.run(): Trial 94
+Environment.reset(): Trial set up with start = (4, 6), destination = (3, 3), deadline = 20
+RoutePlanner.route_to(): destination = (3, 3)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  5  reward:  7
+destination reached:  92  illegal moves  37 cumulative steps:  1195  average number of steps:  12.9891304348  average rewards:  16.6630434783
+
+Simulator.run(): Trial 95
+Environment.reset(): Trial set up with start = (5, 4), destination = (2, 5), deadline = 20
+RoutePlanner.route_to(): destination = (2, 5)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  6  reward:  8
+destination reached:  93  illegal moves  37 cumulative steps:  1201  average number of steps:  12.9139784946  average rewards:  16.5698924731
+
+Simulator.run(): Trial 96
+Environment.reset(): Trial set up with start = (8, 1), destination = (5, 5), deadline = 35
+RoutePlanner.route_to(): destination = (5, 5)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  18  reward:  23
+destination reached:  94  illegal moves  37 cumulative steps:  1219  average number of steps:  12.9680851064  average rewards:  16.6382978723
+
+Simulator.run(): Trial 97
+Environment.reset(): Trial set up with start = (3, 1), destination = (3, 6), deadline = 25
+RoutePlanner.route_to(): destination = (3, 6)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  11  reward:  14
+destination reached:  95  illegal moves  37 cumulative steps:  1230  average number of steps:  12.9473684211  average rewards:  16.6105263158
+
+Simulator.run(): Trial 98
+Environment.reset(): Trial set up with start = (2, 5), destination = (8, 6), deadline = 35
+RoutePlanner.route_to(): destination = (8, 6)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  16  reward:  23
+destination reached:  96  illegal moves  37 cumulative steps:  1246  average number of steps:  12.9791666667  average rewards:  16.6770833333
+
+Simulator.run(): Trial 99
+Environment.reset(): Trial set up with start = (3, 5), destination = (7, 4), deadline = 25
+RoutePlanner.route_to(): destination = (7, 4)
+Environment.act(): Primary agent has reached destination!
+steps to reach destination:  13  reward:  14.5
+destination reached:  97  illegal moves  37 cumulative steps:  1259  average number of steps:  12.9793814433  average rewards:  16.6546391753
+
