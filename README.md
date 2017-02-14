@@ -13,3 +13,9 @@ Software requirements:
 - Project 1 to 3: Anaconda python 2.7
 - Project 4: Anaconda python 2.7 and pygame library (https://www.pygame.org/wiki/GettingStarted)
 - Capstone Project: Anaconda python 2.7, Python Pillow, Tensorflow r.012
+
+
+# Better Model for SVHN
+After finishing my Udacity ML nanodegree I played around with the SVHN model and do more data augmentation. At the end I increased the size of the first Conv layer from 16 to 32 and train the model with large data augmentation one million steps  on a Titan X Pascal (about a week!). Finally I achieved test accuracy character level: 98.55%!! and Test accuracy for the whole number: 96.00%!! Notebooks:
+- svhn_cnn_32x32_FINAL.ipynb: this notebook do trhe data augmentation and train the model. You need a machine with 64GB RAM and a very fast GPU (Titan X Pascal, K80 and so on)
+- svhn_cnn_32x32_bestl_model.ipynb loads the best model and shows some results.  You will see in some cases the ground true label is wrong and the model is right!
